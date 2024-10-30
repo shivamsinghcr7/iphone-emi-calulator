@@ -1,3 +1,13 @@
+# Babel/plugin error fix
+ --> npm install --save-dev @babel/plugin-proposal-private-property-in-object
+ --> Adding this dependencies to package-lock.json and package.json:
+   -"devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
+  }
+  
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
