@@ -62,9 +62,7 @@ function IphoneEmiCal() {
                 />
               </div>
               <div className="row m-2">
-                <label className="col-6 form-label">
-                  Interest Amount (₹):{" "}
-                </label>
+                <label className="col-6 form-label">Interest Amount (₹):</label>
                 <input
                   className="col-6 form-control w-50"
                   type="number"
