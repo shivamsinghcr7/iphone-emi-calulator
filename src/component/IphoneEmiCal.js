@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Myimage from "../assets/images/emi_image.jpg";
-import appleLogo from "../assets/images/apple.png";
+//import appleLogo from "../assets/images/apple.png";
 
 function IphoneEmiCal() {
   const [principal, setPrincipal] = useState("");
