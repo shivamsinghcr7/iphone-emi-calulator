@@ -17,7 +17,7 @@ function IphoneEmiCal() {
     if (p > 0 && i > 0) {
       const total = parseFloat(p + i + gst);
       setTotalamt(total.toFixed(2));
-      setGst(gst);
+      setGst(gst.toFixed(2));
       console.log(total);
     } else {
       setTotalamt("invalid input");
