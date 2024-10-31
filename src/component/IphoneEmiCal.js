@@ -50,11 +50,11 @@ function IphoneEmiCal() {
               </div>
             </div>
 
-            <form className="mt-3">
+            <form className="form mt-3">
               <div className="row m-2">
-                <label className="col-sm-5 form-label">Principal (₹): </label>
+                <label className="col-6 form-label">Principal (₹): </label>
                 <input
-                  className="col-sm-5 form-control w-50"
+                  className="col-6 form-control w-50"
                   type="number"
                   placeholder="Principal Amount"
                   value={principal}
@@ -62,11 +62,11 @@ function IphoneEmiCal() {
                 />
               </div>
               <div className="row m-2">
-                <label className="col-sm-5 form-label">
+                <label className="col-6 form-label">
                   Interest Amount (₹):{" "}
                 </label>
                 <input
-                  className="col-sm-5 form-control w-50"
+                  className="col-6 form-control w-50"
                   type="number"
                   placeholder="Interest Amount"
                   value={interest}
@@ -74,11 +74,9 @@ function IphoneEmiCal() {
                 />
               </div>
               <div className="row m-2">
-                <label className="col-sm-5 form-label">
-                  GST on Interest (₹):{" "}
-                </label>
+                <label className="col-6 form-label">GST on Interest (₹):</label>
                 <input
-                  className="col-sm-5 form-control w-50"
+                  className="col-6 form-control w-50"
                   type="number"
                   placeholder="18% GST (by default)"
                   value={gst}
